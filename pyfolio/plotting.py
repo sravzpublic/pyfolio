@@ -661,6 +661,7 @@ def show_perf_stats(returns, factor_returns=None, positions=None,
         header_rows=header_rows,
     )
 
+    return perf_stats
 
 def plot_returns(returns,
                  live_start_date=None,
